@@ -38,7 +38,7 @@ export default () => (
       h1 a {
         font-size: 23px;
         font-weight: 500;
-        color: ${theme.foregroundColor};
+        color: ${theme.green};
         border-radius: 6px;
       }
 
