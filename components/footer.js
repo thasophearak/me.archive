@@ -53,7 +53,7 @@ export default () => (
     <span>Made in Cambodia</span>
     <style jsx>{`
       div {
-        padding: 8px 0 24px;
+        padding: 32px 0 24px;
       }
       p {
         margin: 0 0 12px;
@@ -65,6 +65,7 @@ export default () => (
       }
       a:active,
       a:hover {
+        opacity: 0.6;
         background: transparent;
       }
       a:not(:last-child) {
@@ -73,8 +74,7 @@ export default () => (
       span {
         display: block;
         margin-top: 12px;
-        font-size: 14px;
-        opacity: 0.5;
+        opacity: 0.6;
       }
     `}</style>
   </div>

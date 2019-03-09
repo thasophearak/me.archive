@@ -26,7 +26,7 @@ function Home() {
 
         <h2>A little bit about me</h2>
         <p>
-          I am a web developer from Phnom Penh, Cambodia. I am interested in
+          I am a developer from Phnom Penh, Cambodia. I am interested in
           anything that is related to Computer, from Color Correction to Web
           Design to Web Development to DevOps to IoT.
         </p>
