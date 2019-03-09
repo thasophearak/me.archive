@@ -60,10 +60,16 @@ export default () => (
         margin-left: -6px;
         margin-right: -6px;
       }
+
+      nav a.active,
       a:active,
       a:hover {
         color: ${theme.foregroundColor};
         background: ${theme.lightBlack};
+      }
+
+      nav a:not(:last-child) {
+        margin-right: 8px;
       }
 
       p {

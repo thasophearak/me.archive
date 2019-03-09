@@ -1,27 +1,24 @@
-import Link from 'next/link'
+import ActiveLink from './active-link'
 
 import theme from '../utils/theme'
 
 export default () => (
   <div>
     <nav>
-      <Link prefetch href="/">
-        <a>me</a>
-      </Link>
-      <Link prefetch href="/metadata">
-        <a>metadata</a>
-      </Link>
-      <Link prefetch href="/now">
-        <a>now</a>
-      </Link>
+      <ActiveLink prefetch href="/">
+        me
+      </ActiveLink>
+      <ActiveLink prefetch href="/metadata">
+        metadata
+      </ActiveLink>
+      <ActiveLink prefetch href="/now">
+        now
+      </ActiveLink>
     </nav>
 
     <style jsx>{`
       nav {
         margin: 0 0 24px;
-      }
-      a:not(:last-child) {
-        margin-right: 8px;
       }
     `}</style>
   </div>

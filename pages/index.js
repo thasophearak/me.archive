@@ -32,10 +32,9 @@ function Home() {
         </p>
         <h2>Want to know more?</h2>
         <p>
-          Things with me everyday are 13" MacBook Pro mid <del>2014</del> 2018
-          running latest version of macOS and Nokia 7 Plus running latest
-          version of Android. Once a while I carried Canon 700D with Magic
-          Lantern installed.
+          Things with me everyday are 13" MacBook Pro mid 2018 running latest
+          version of macOS and Nokia 7 Plus running latest version of Android.
+          Once a while I carried Canon 700D with Magic Lantern installed.
         </p>
         <p>
           My default web browser is Google Chrome. My primary code editor is{' '}
