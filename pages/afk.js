@@ -4,13 +4,14 @@ import Link from 'next/link'
 import Meta from '../components/meta'
 import Slogan from '../components/slogan'
 import Nav from '../components/nav'
+import Footer from '../components/footer'
 
-function Metadata() {
+function Afk() {
   return (
     <div>
       <Meta />
       <Head>
-        <title>Now • Sophearak Tha</title>
+        <title>AFK • Sophearak Tha</title>
       </Head>
 
       <div className="container">
@@ -22,9 +23,11 @@ function Metadata() {
 
         <Slogan />
         <Nav />
+
+        <Footer />
       </div>
     </div>
   )
 }
 
-export default Metadata
+export default Afk

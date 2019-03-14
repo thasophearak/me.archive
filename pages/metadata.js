@@ -62,22 +62,15 @@ function Metadata() {
           <div className="past">
             <span className="dot past" />
             <p>
-              Apr 2018 - Feb 2019 |{' '}
-              <a href="https://www.okoone.com/">
-                <span>Okoone</span>
-              </a>{' '}
-              - Web Developer •{' '}
+              Apr 2018 - Feb 2019 | <span>Okoone</span> - Web Developer •{' '}
               <a href="https://www.typescriptlang.org/">TypeScript</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Apr 2017 - Mar 2018 |{' '}
-              <a href="https://www.dragonmetrics.com/">
-                <span>Dragon Metrics</span>
-              </a>{' '}
-              - Web Developer •{' '}
+              Apr 2017 - Mar 2018 | <span>Dragon Metrics</span> - Web Developer
+              •{' '}
               <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
             </p>
           </div>
