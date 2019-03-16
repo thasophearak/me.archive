@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Mondulkiri',
-    tags: ['#camping', '#trekking'],
+    tags: ['#mondulkiri', '#camping', '#trekking'],
     path: '/static/afk/1.jpg',
     url: '/mondulkiri',
     width: 1500,
@@ -9,7 +9,7 @@ export default [
   },
   {
     title: 'Ratanakiri',
-    tags: ['#camping', '#trekking'],
+    tags: ['#ratanakiri', '#camping', '#trekking'],
     path: '/static/afk/2.jpg',
     url: '/ratanakiri',
     width: 1500,
@@ -17,7 +17,7 @@ export default [
   },
   {
     title: 'Stung Treng',
-    tags: ['#camping', '#trekking'],
+    tags: ['#stung-treng', '#camping', '#trekking'],
     path: '/static/afk/3.jpg',
     url: '/stung-treng',
     width: 1500,
@@ -25,7 +25,7 @@ export default [
   },
   {
     title: 'Kampot',
-    tags: ['#camping', '#trekking'],
+    tags: ['#kampot', '#camping', '#trekking'],
     path: '/static/afk/4.jpg',
     url: '/kampot',
     width: 2560,
@@ -33,7 +33,7 @@ export default [
   },
   {
     title: 'Kampong Speu',
-    tags: ['#camping', '#trekking'],
+    tags: ['#kampong-speu', '#camping', '#trekking'],
     path: '/static/afk/5.jpg',
     url: '/kampong-speu',
     width: 1500,
@@ -41,7 +41,7 @@ export default [
   },
   {
     title: 'Sihanoukville',
-    tags: ['#camping', '#trekking'],
+    tags: ['#sihanoukville', '#camping', '#trekking'],
     path: '/static/afk/6.jpg',
     url: '/sihanoukville',
     width: 1500,
@@ -49,7 +49,7 @@ export default [
   },
   {
     title: 'Koh Kong',
-    tags: [],
+    tags: ['#koh-kong', '#camping'],
     path: '/static/afk/7.jpg',
     url: '/koh-kong',
     width: 1500,

@@ -110,7 +110,6 @@ export default class Afk extends React.Component {
             {photos.map((photo, index) => (
               <a href={photo.url} key={index}>
                 <img src={photo.path} alt={photo.title} style={photo.inline} />
-                <span className="title">{photo.title}</span>
                 <span className="tags">
                   {photo.tags.map((tag, index) => (
                     <span className="tag" key={index}>
@@ -142,7 +141,7 @@ export default class Afk extends React.Component {
             border-radius: 0;
           }
           img {
-            transition: all 3s ease-out;
+            transition: transform 3s ease-out;
           }
           img:hover {
             transform: scale(1.2);
@@ -152,8 +151,9 @@ export default class Afk extends React.Component {
             display: none;
           }
 
-          img:hover + .title + .tags {
-            display: none;
+          img:hover + .tags {
+            transform: translateY(32px);
+            opacity: 0;
           }
 
           .title {
@@ -168,6 +168,8 @@ export default class Afk extends React.Component {
           .tags {
             position: absolute;
             bottom: 12px;
+            transition: all ${theme.transition};
+            opacity: 1;
           }
           .tag {
             font-size: 14px;
