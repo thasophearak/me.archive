@@ -7,6 +7,7 @@ import Slogan from '../components/slogan'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
 
+import theme from '../utils/theme'
 import layout from '../utils/fixed-partition'
 import data from '../utils/afk-data'
 
@@ -82,7 +83,7 @@ export default class Afk extends React.Component {
   }
 
   componentWillUnmount() {
-    window.addEventListener('optimizedResize', this.computeLayout)
+    window.removeEventListener('optimizedResize', this.computeLayout.bind(this))
   }
 
   render() {
@@ -129,17 +130,53 @@ export default class Afk extends React.Component {
             position: relative;
           }
           .wrap a {
-            display: block;
+            display: flex;
             font-size: 0;
             float: left;
             margin: 0;
             padding: 0;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 0;
           }
-          .wrap a span {
+          img {
+            transition: all 3s ease-out;
+          }
+          img:hover {
+            transform: scale(1.2);
+          }
+
+          img:hover + .title {
             display: none;
           }
-          .img {
+
+          img:hover + .title + .tags {
+            display: none;
+          }
+
+          .title {
             position: absolute;
+            color: ${theme.foregroundColor};
+            background: ${theme.backgroundColor};
+            padding: 6px 12px;
+            font-size: 18px;
+            line-height: 1;
+            border-radius: 4px;
+          }
+          .tags {
+            position: absolute;
+            bottom: 12px;
+          }
+          .tag {
+            font-size: 14px;
+            line-height: 1;
+            background: #fff;
+            color: ${theme.backgroundColor};
+            margin-right: 8px;
+            padding: 3px 6px;
+            border-radius: 2px;
           }
         `}</style>
       </div>
