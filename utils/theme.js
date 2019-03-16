@@ -1,6 +1,6 @@
 export default {
   foregroundColor: '#8F93A2',
-  backgroundColor: '#0F111A',
+  backgroundColor: '#08090e',
   selectionColor: 'rgba(58, 117, 196, 0.3)',
   black: '#000000',
   red: '#E25822',
