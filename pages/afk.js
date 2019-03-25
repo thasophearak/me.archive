@@ -9,7 +9,7 @@ import Footer from '../components/footer'
 
 import theme from '../utils/theme'
 import layout from '../utils/fixed-partition'
-import data from '../utils/afk-data'
+import data from '../utils/data-afk'
 
 export default class Afk extends React.Component {
   constructor(props) {

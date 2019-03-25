@@ -62,37 +62,36 @@ function Metadata() {
           <div className="past">
             <span className="dot past" />
             <p>
-              Apr 2018 - Feb 2019 | <span>Okoone</span> - Web Developer •{' '}
+              Apr 2018 - Feb 2019 | <span>Okoone</span> - Web Dev •{' '}
               <a href="https://www.typescriptlang.org/">TypeScript</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Apr 2017 - Mar 2018 | <span>Dragon Metrics</span> - Web Developer
-              •{' '}
+              Apr 2017 - Mar 2018 | <span>Dragon Metrics</span> - Web Dev •{' '}
               <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Jan 2015 - Mar 2017 | <span>Bandanh</span> - Web Developer •{' '}
+              Jan 2015 - Mar 2017 | <span>Bandanh</span> - Web Dev •{' '}
               <a href="https://typo3.org/">TYPO3</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Mar 2014 - Nov 2014 | <span>Luxury Machine</span> - Web Developer
-              • <a href="https://magento.com/">Magento</a>
+              Mar 2014 - Nov 2014 | <span>Luxury Machine</span> - Web Dev •{' '}
+              <a href="https://magento.com/">Magento</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Jul 2013 - Feb 2014 | <span>Khmer Enterprises</span> - Web
-              Developer • <a href="https://www.drupal.org/">Drupal</a>
+              Jul 2013 - Feb 2014 | <span>Khmer Enterprises</span> - Web Dev •{' '}
+              <a href="https://www.drupal.org/">Drupal</a>
             </p>
           </div>
         </div>
