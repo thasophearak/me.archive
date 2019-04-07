@@ -47,7 +47,7 @@ function Metadata() {
                 />
                 <circle fill="#FFAC33" cx="18" cy="18" r="10" />
               </svg>{' '}
-              | Automate whatever possible
+              Automate whatever possible
             </p>
             <p className="mb-24 with-svg">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
@@ -60,7 +60,7 @@ function Metadata() {
                   fill="#FFCC4D"
                 />
               </svg>{' '}
-              | A panic <a href="https://golang.org/">Gopher</a>
+              A panic <a href="https://golang.org/">Gopher</a>
             </p>
           </div>
           <div className="past">

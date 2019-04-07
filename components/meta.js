@@ -57,10 +57,12 @@ export default () => (
       }
 
       h1 {
-        margin: 32px 0 6px;
+        line-height: 1;
+        margin: 24px 0 12px;
       }
       h1 a {
         font-size: 23px;
+        line-height: 1;
         font-weight: 500;
         color: ${theme.green};
         border-radius: 6px;
@@ -97,7 +99,7 @@ export default () => (
       }
 
       p {
-        max-width: 800px;
+        max-width: 720px;
         margin: 0 0 16px;
       }
 
@@ -106,6 +108,11 @@ export default () => (
         max-width: 1000px;
         margin: 0 auto;
         padding: 0 16px;
+      }
+      @media screen and (min-width: 580px) {
+        h1 {
+          margin: 32px 0 8px;
+        }
       }
     `}</style>
   </div>

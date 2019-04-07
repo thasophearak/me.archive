@@ -6,7 +6,11 @@ export default () => (
     <style jsx>{`
       p {
         margin: 0 0 24px;
-        letter-spacing: 0.5px;
+      }
+      @media screen and (min-width: 580px) {
+        p {
+          margin: 0 0 32px;
+        }
       }
       @media only screen and (min-width: 768px) {
         // p {
