@@ -4,3 +4,4 @@ node_modules
 package-lock.json
 api/sophearak-me.json
 static/afk
+static/shop

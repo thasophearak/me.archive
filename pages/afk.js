@@ -140,16 +140,6 @@ export default class Afk extends React.Component {
             overflow: hidden;
             border-radius: 0;
           }
-          img {
-            transition: transform 3s ease-out;
-          }
-          img:hover {
-            transform: scale(1.2);
-          }
-
-          img:hover + .title {
-            display: none;
-          }
 
           img:hover + .tags {
             transform: translateY(32px);

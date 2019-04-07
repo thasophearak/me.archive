@@ -9,6 +9,10 @@ import layout from '../utils/fixed-columns'
 export default class Shop extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {
+      wrap: {},
+      photos: []
+    }
   }
 
   componentWillMount() {

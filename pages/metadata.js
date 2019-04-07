@@ -13,7 +13,6 @@ function Metadata() {
       <Meta />
       <Head>
         <title>Metadata • Sophearak Tha</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <div className="container">
@@ -31,9 +30,9 @@ function Metadata() {
         <div className="timeline">
           <div className="present">
             <span className="dot current" />
-            <span className="heading">Present</span>
+            <span className="heading">Now</span>
             <p>
-              Automation at <a href="https://zeit.co/">ZEIT</a>
+              Now Builders at <a href="https://zeit.co/now">ZEIT</a>
             </p>
             <p className="with-svg">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
@@ -62,36 +61,37 @@ function Metadata() {
           <div className="past">
             <span className="dot past" />
             <p>
-              Apr 2018 - Feb 2019 | <span>Okoone</span> - Web Dev •{' '}
+              Apr 2018 - Feb 2019 | <span>Okoone</span> - Web Developer •{' '}
               <a href="https://www.typescriptlang.org/">TypeScript</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Apr 2017 - Mar 2018 | <span>Dragon Metrics</span> - Web Dev •{' '}
+              Apr 2017 - Mar 2018 | <span>Dragon Metrics</span> - Web Developer
+              •{' '}
               <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Jan 2015 - Mar 2017 | <span>Bandanh</span> - Web Dev •{' '}
+              Jan 2015 - Mar 2017 | <span>Bandanh</span> - Web Developer •{' '}
               <a href="https://typo3.org/">TYPO3</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Mar 2014 - Nov 2014 | <span>Luxury Machine</span> - Web Dev •{' '}
-              <a href="https://magento.com/">Magento</a>
+              Mar 2014 - Nov 2014 | <span>Luxury Machine</span> - Web Developer
+              • <a href="https://magento.com/">Magento</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
             <p>
-              Jul 2013 - Feb 2014 | <span>Khmer Enterprises</span> - Web Dev •{' '}
-              <a href="https://www.drupal.org/">Drupal</a>
+              Jul 2013 - Feb 2014 | <span>Khmer Enterprises</span> - Web
+              Developer • <a href="https://www.drupal.org/">Drupal</a>
             </p>
           </div>
         </div>
