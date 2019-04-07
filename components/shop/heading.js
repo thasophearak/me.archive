@@ -5,7 +5,11 @@ import Social from '../social'
 export default () => (
   <div className="container heading">
     <Link prefetch href="/">
-      <img className="profile" src="/static/profile.jpg" alt="Sophearak Tha" />
+      <img
+        className="profile"
+        src="/static/primitive.jpg"
+        alt="Sophearak Tha"
+      />
     </Link>
     <h1>Sophearak Tha</h1>
 

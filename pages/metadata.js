@@ -1,5 +1,6 @@
-import Head from 'next/head'
 import Link from 'next/link'
+
+import NextSeo from 'next-seo'
 
 import Meta from '../components/meta'
 import Slogan from '../components/slogan'
@@ -10,10 +11,14 @@ import theme from '../utils/theme'
 function Metadata() {
   return (
     <div>
+      <NextSeo
+        config={{
+          title: 'Metadata • Sophearak Tha',
+          description:
+            'Internetrovert • Minimalist • Developer • Non-photographer'
+        }}
+      />
       <Meta />
-      <Head>
-        <title>Metadata • Sophearak Tha</title>
-      </Head>
 
       <div className="container">
         <h1>

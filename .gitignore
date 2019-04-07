@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 .next
-package-lock.json
 api/sophearak-me.json
 static/afk
 static/shop

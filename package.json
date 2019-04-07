@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "next": "latest",
+    "next-seo": "^1.11.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "rebass": "^3.0.1",

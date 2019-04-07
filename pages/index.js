@@ -1,5 +1,6 @@
-import Head from 'next/head'
 import Link from 'next/link'
+
+import NextSeo from 'next-seo'
 
 import Meta from '../components/meta'
 import Slogan from '../components/slogan'
@@ -9,10 +10,14 @@ import Footer from '../components/footer'
 function Home() {
   return (
     <div>
+      <NextSeo
+        config={{
+          title: 'Sophearak Tha',
+          description:
+            'Internetrovert • Minimalist • Developer • Non-photographer'
+        }}
+      />
       <Meta />
-      <Head>
-        <title>Sophearak Tha</title>
-      </Head>
 
       <div className="container">
         <h1>
