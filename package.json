@@ -9,6 +9,7 @@
   "author": "Sophearak Tha <hi@sophearak.me> (https://sophearak.me)",
   "license": "MIT",
   "dependencies": {
+    "fontfaceobserver": "^2.1.0",
     "next": "latest",
     "next-seo": "^1.11.2",
     "react": "^16.8.4",

@@ -15,7 +15,7 @@ export default {
   darkBlue: '#0B0D14',
   lightBlue: '#131622',
   transition: '150ms ease-in',
-  mono: '"SF Mono", monospace, monospace',
+  mono: 'monospace, monospace',
   fonts:
-    '"mononoki Nerd Font", system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Ubuntu, Google Sans, Roboto, Noto, Segoe UI, Arial, sans-serif'
+    'mononoki, system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Ubuntu, Google Sans, Roboto, Noto, Segoe UI, Arial, sans-serif'
 }
