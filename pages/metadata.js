@@ -60,38 +60,41 @@ function Metadata() {
           </div>
           <div className="past">
             <span className="dot past" />
+            <p>Apr 2018 - Feb 2019</p>
             <p>
-              Apr 2018 - Feb 2019 | <span>Okoone</span> - Web Developer •{' '}
+              Web Developer at Okoone •{' '}
               <a href="https://www.typescriptlang.org/">TypeScript</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
+            <p>Apr 2017 - Mar 2018</p>
             <p>
-              Apr 2017 - Mar 2018 | <span>Dragon Metrics</span> - Web Developer
-              •{' '}
+              Web Developer at Dragon Metrics •{' '}
               <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
+            <p>Jan 2015 - Mar 2017</p>
             <p>
-              Jan 2015 - Mar 2017 | <span>Bandanh</span> - Web Developer •{' '}
-              <a href="https://typo3.org/">TYPO3</a>
+              Web Developer at Bandanh • <a href="https://typo3.org/">TYPO3</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
+            <p>Mar 2014 - Nov 2014</p>
             <p>
-              Mar 2014 - Nov 2014 | <span>Luxury Machine</span> - Web Developer
-              • <a href="https://magento.com/">Magento</a>
+              Web Developer at Luxury Machine •{' '}
+              <a href="https://magento.com/">Magento</a>
             </p>
           </div>
           <div className="past">
             <span className="dot past" />
+            <p>Jul 2013 - Feb 2014</p>
             <p>
-              Jul 2013 - Feb 2014 | <span>Khmer Enterprises</span> - Web
-              Developer • <a href="https://www.drupal.org/">Drupal</a>
+              Web Developer at Khmer Enterprises •{' '}
+              <a href="https://www.drupal.org/">Drupal</a>
             </p>
           </div>
         </div>
@@ -115,6 +118,7 @@ function Metadata() {
           .past,
           .present {
             position: relative;
+            margin-bottom: 32px;
           }
           .past p,
           .present p {
@@ -176,11 +180,6 @@ function Metadata() {
           }
           p {
             margin: 0 0 12px;
-          }
-          p span {
-            width: 17ch;
-            display: inline-block;
-            text-align: right;
           }
           .mb-24 {
             margin-bottom: 24px;
