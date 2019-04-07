@@ -11,12 +11,12 @@ export default () => (
       <ActiveLink prefetch href="/metadata">
         metadata
       </ActiveLink>
-      <ActiveLink prefetch href="/afk">
+      {/* <ActiveLink prefetch href="/afk">
         afk
       </ActiveLink>
       <ActiveLink prefetch href="/shop">
         shop
-      </ActiveLink>
+      </ActiveLink> */}
     </nav>
 
     <style jsx>{`
